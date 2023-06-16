@@ -1,0 +1,47 @@
+.height {
+    width: 80%;
+    height: 100px;
+}
+.containerOne {
+    background-color: #189AAA;
+    width: 80%;
+    height: 30%;
+}
+
+
+
+.containerSecond {
+    background-color: #313E50;
+    color: white;
+    margin-top: 80px;
+    padding: 8px;
+}
+
+.stefanoImg{
+    height: 470px;
+    width: auto;
+}
+
+
+.cat-img{
+    height: 470px;
+    width: auto;
+}
+
+
+
+.img-size {
+    width: auto;
+    height: 400px;
+}
+
+.logo-size{
+    width: auto;
+    height: 500px;
+}
+
+.card-group {
+    padding-top: 60px;
+    margin-right: 100px;
+    margin-left: 100px;
+}

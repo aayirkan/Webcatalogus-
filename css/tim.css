@@ -1,0 +1,32 @@
+.shoe-background {
+    background-image: url(/img/shoes/shoe-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cat1-bg {
+    background-image: url(/img/shoes/dr-martens-shoe.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cat2-bg {
+    background-image: url(/img/shoes/nike-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cat3-bg {
+    background-image: url(/img/shoes/shoe-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contact-bg {
+    background-color: #189AAA;
+}
+
+.form-button {
+    display: block;
+    background-color: #313E50;
+}

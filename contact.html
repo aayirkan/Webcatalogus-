@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Custom css-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/tim.css">
+    <!--Bootstrap js-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <title>RunningClothes | Contact</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-navbar positioning-absolute z-3">
+                <div class="container">
+                    <a class="navbar-brand" href="/index.html">RunningClothes</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/aboutus.html">Over Ons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/job-offers.html">Job Offers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Kleding</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="/subject-one/index.html">Sweaters</a>
+                                    <a class="dropdown-item" href="/subject-two/index.html">Jeans</a>
+                                    <a class="dropdown-item" href="/subject-three/index.html">Shirts</a>
+                                    <a class="dropdown-item" href="/subject-four/index.html">Schoenen</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container-sm p-5 text-center contact-bg text-white">
+            <h1>Contact</h1>
+        </div>
+        <div class="row">
+            <div class="col-0 col-lg-2"></div>
+            <div class="col-12 col-md-8 col-lg-7">
+                <div class="my-5 p-4 container-sm border border-secondary rounded-3">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Uw naam</label>
+                        <input type="text" class="form-control name-input" name="Name-input" id="" aria-describedby="helpId"
+                            placeholder="Bijv: Jan Janssen">
+                        <small id="helpId" class="form-text text-muted">Zorg ervoor u geen meerdere spaties gebruikt.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Uw email</label>
+                        <input type="email" class="form-control email-input" name="email-input" id="" aria-describedby="helpId"
+                            placeholder="Bijv: uwnaam@hetbedrijfhier.nl">
+                        <small id="helpId" class="form-text text-muted">Zorg ervoor u geen meerdere spaties gebruikt.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Stel hier uw vraag</label>
+                        <div class="input-group">
+                            <textarea class="form-control question-input" aria-label="With textarea"></textarea>
+                        </div>
+                        <h6 id="helpId" class="form-text letter-counter">2000</h6>
+                    </div>
+                    <button type="button" class="btn mx-auto form-button text-white confirm-button w-25">Stuur uw vraag</button>
+                </div>
+            </div>
+            <div class="col d-flex align-items-center">
+                <img src="/img/contact-us-img.png" class="img-thumbnail m-auto mx-md-3" alt="...">
+            </div>
+        </div>
+    </div>
+    <script type="application/javascript" src="/js/contact.js"></script>
+</body>
+
+</html>

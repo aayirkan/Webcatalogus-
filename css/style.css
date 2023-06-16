@@ -1,0 +1,51 @@
+/* Put yor own CSS code here when needed */
+
+body {
+    background-color: #dee5e5;
+}
+
+.bg-navbar {
+    background-color: #313E50;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navcolor{
+    background-color: #313E50;
+}
+
+.form-button:hover {
+    background-color: #38639e;
+}
+
+.validation-border {
+    border: 2px solid red;
+}
+
+.red-text {
+    color: red;
+}
+
+.height {
+    width: 80%;
+    height: 100px;
+}
+.containerOne {
+    background-color: #189AAA;
+    width: 80%;
+    height: 30%;
+    margin-left: 200px;
+    height: 200px;
+}
+
+.containerTwo{
+    background-color: #313E50;
+    color: white;
+    width: 10%;
+    padding: 20px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 90px;
+}
